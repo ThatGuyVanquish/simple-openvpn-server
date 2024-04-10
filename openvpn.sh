@@ -2,9 +2,9 @@
 
 # defaults 
 ADMINPASSWORD="secret"
-DNS1="8.8.8.8"
+DNS1="10.0.0.4"
 DNS2="8.8.4.4"
-PROTOCOL=udp
+PROTOCOL=tcp
 EMAIL=""
 PORT=1194
 HOST=$(wget -4qO- "http://whatismyip.akamai.com/")
